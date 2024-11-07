@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Signout from './signOut';
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+        <Signout />
+        Home
+    </>
   )
 }
 
