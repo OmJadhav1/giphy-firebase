@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .sign-in-container {
+    width: 100%;
+    max-width: 600px; /* Increased width for a much wider form */
+    background-color: #fff;
+    padding: 50px; /* Increased padding to keep it spacious */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+  }
+  
+  .sign-in-form {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 30px; /* Increased margin for better separation */
+    font-size: 28px; /* Increased font size for title */
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 25px; /* Slightly larger margin between fields */
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 16px; /* Increased label font size */
+    color: #555;
+    margin-bottom: 10px; /* More space between label and input */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 16px; /* Increased input padding */
+    font-size: 18px; /* Increased font size for better readability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #0056b3;
+    background-color: #fff;
+  }
+  
+  .sign-in-btn {
+    width: 100%;
+    padding: 16px; /* Increased padding for button */
+    font-size: 18px; /* Larger button font size */
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #004494;
+  }
+  
+  .create-account {
+    margin-top: 25px; /* More space between button and text */
+    font-size: 16px; /* Slightly larger text for better readability */
+    color: #777;
+  }
+  
+  .create-account a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .create-account a:hover {
+    text-decoration: underline;
+  }
+  

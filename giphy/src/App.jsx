@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import SignUp from "./components/signUp";
 import Auth from "./components/signIn";
 import Home from "./components/home";
-import "./App.css";
+// import "./App.css";
 
 function App() {
   return (
